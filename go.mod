@@ -1,19 +1,19 @@
-module github.com/GoAdminGroup/example
+module github.com/purpose168/GoAdminExample
 
 go 1.21.5
 
 require (
-	github.com/GoAdminGroup/go-admin v1.2.26
-	github.com/GoAdminGroup/themes v0.0.47
+	github.com/purpose168/GoAdmin v1.2.26
+	github.com/purpose168/GoAdminThemes v0.0.47
 	github.com/gavv/httpexpect v2.0.0+incompatible
-	github.com/gin-gonic/gin v1.5.0
-	github.com/jinzhu/gorm v1.9.12
+	github.com/gin-gonic/gin v1.9.1
+	github.com/jinzhu/gorm v1.9.16
 )
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1 // indirect
-	github.com/GoAdminGroup/html v0.0.1 // indirect
+	github.com/purpose168/html v0.0.1 // indirect
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
