@@ -13,7 +13,7 @@
 ### 步骤 1
 
 ```shell
-git clone https://github.com/purpose168/GoAdminExample.git
+git clone https://github.com/purpose168/GoAdmin-example.git
 ```
 
 ### 步骤 2
@@ -30,7 +30,7 @@ GO111MODULE=on go run .
 ### 步骤 1
 
 ```shell
-git clone https://github.com/purpose168/GoAdminExample.git
+git clone https://github.com/purpose168/GoAdmin-example.git
 ```
 
 ### 步骤 2
