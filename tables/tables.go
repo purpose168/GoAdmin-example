@@ -2,7 +2,7 @@
 // 本文件定义了所有表格模型的生成器映射，用于路由到对应的表格处理函数
 package tables
 
-import "github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+import "github.com/purpose168/GoAdmin/plugins/admin/modules/table"
 
 // Generators 表格生成器映射表
 //

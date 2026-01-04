@@ -11,12 +11,12 @@ import (
 	"testing"
 
 	"github.com/GoAdminGroup/example/tables"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/tests"
-	"github.com/GoAdminGroup/go-admin/tests/common"
-	"github.com/GoAdminGroup/go-admin/tests/frameworks/gin"
-	"github.com/GoAdminGroup/go-admin/tests/web"
 	"github.com/gavv/httpexpect"
+	"github.com/purpose168/GoAdmin/modules/config"
+	"github.com/purpose168/GoAdmin/tests"
+	"github.com/purpose168/GoAdmin/tests/common"
+	"github.com/purpose168/GoAdmin/tests/frameworks/gin"
+	"github.com/purpose168/GoAdmin/tests/web"
 )
 
 // TestExampleBlackBox 黑盒测试

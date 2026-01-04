@@ -7,25 +7,25 @@
 package main
 
 import (
-	"context"
-	"io/ioutil"
-	"log"
-	"net/http"
-	"os"
-	"os/signal"
-	"time"
+	"context"   // 上下文包，用于管理请求范围的操作
+	"io/ioutil" // 输入/输出工具包，用于文件操作
+	"log"       // 日志包，用于记录应用运行时信息
+	"net/http"  // HTTP 包，用于处理 HTTP 请求和响应
+	"os"        // 操作系统包，用于访问环境变量和文件系统
+	"os/signal" // 信号处理包，用于捕获系统信号
+	"time"      // 时间包，用于处理时间相关操作
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"               // Gin Web 框架适配器
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite" // SQLite 数据库驱动
-	_ "github.com/GoAdminGroup/themes/sword"                       // Sword UI 主题
+	_ "github.com/GoAdminGroup/themes/sword"                    // Sword UI 主题
+	_ "github.com/purpose168/GoAdmin/adapter/gin"               // Gin Web 框架适配器
+	_ "github.com/purpose168/GoAdmin/modules/db/drivers/sqlite" // SQLite 数据库驱动
 
-	"github.com/GoAdminGroup/example/models"
-	"github.com/GoAdminGroup/example/pages"
-	"github.com/GoAdminGroup/example/tables"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/gin-gonic/gin"
+	"github.com/GoAdminGroup/example/models"         // 模型包，定义数据库表结构
+	"github.com/GoAdminGroup/example/pages"          // 页面包，定义管理后台页面
+	"github.com/GoAdminGroup/example/tables"         // 表格包，定义数据表格组件
+	"github.com/gin-gonic/gin"                       // Gin Web 框架，用于处理 HTTP 请求
+	"github.com/purpose168/GoAdmin/engine"           // 引擎包，负责初始化和运行 GoAdmin
+	"github.com/purpose168/GoAdmin/template"         // 模板包，定义页面模板和组件
+	"github.com/purpose168/GoAdmin/template/chartjs" // Chart.js 图表组件
 )
 
 // main 主函数 - 程序入口点

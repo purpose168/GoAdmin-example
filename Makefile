@@ -24,7 +24,7 @@ build:
 
 # 生成代码：安装 go-admin CLI 工具并生成代码
 generate:
-	$(GOINSTALL) github.com/GoAdminGroup/go-admin/adm
+	$(GOINSTALL) github.com/purpose168/GoAdmin/adm
 	$(CLI) generate -c adm_config.ini
 
 # 执行所有测试：包括黑盒测试和用户验收测试

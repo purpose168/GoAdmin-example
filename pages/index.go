@@ -11,18 +11,18 @@ import (
 	"html/template"
 
 	"github.com/GoAdminGroup/example/models"
-	"github.com/GoAdminGroup/go-admin/context"
-	tmpl "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/template/color"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
 	"github.com/GoAdminGroup/themes/adminlte/components/description"
 	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
 	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
 	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
 	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
+	"github.com/purpose168/GoAdmin/context"
+	tmpl "github.com/purpose168/GoAdmin/template"
+	"github.com/purpose168/GoAdmin/template/chartjs"
+	"github.com/purpose168/GoAdmin/template/color"
+	"github.com/purpose168/GoAdmin/template/icon"
+	"github.com/purpose168/GoAdmin/template/types"
 )
 
 // DashboardPage 返回仪表板页面的内容

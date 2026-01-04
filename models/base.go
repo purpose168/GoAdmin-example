@@ -8,8 +8,8 @@
 package models
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/db"
 	"github.com/jinzhu/gorm"
+	"github.com/purpose168/GoAdmin/modules/db"
 )
 
 var (
