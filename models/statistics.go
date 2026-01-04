@@ -1,7 +1,7 @@
 // models 包 - 数据模型层
 // 本文件定义统计数据的模型和操作方法
 // 使用 GORM 作为ORM框架，支持数据库持久化
-// 作者: GoAdminGroup
+
 // 创建日期: 2024
 // 功能: 提供统计数据的结构定义和模板渲染方法
 
@@ -67,7 +67,7 @@ type Statistics struct {
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/models"
+//	import "github.com/purpose168/GoAdmin-example/models"
 //
 //	// 获取统计数据
 //	stats := models.FirstStatics()
@@ -112,7 +112,7 @@ func FirstStatics() *Statistics {
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/models"
+//	import "github.com/purpose168/GoAdmin-example/models"
 //
 //	stats := models.FirstStatics()
 //	cpuHtml := stats.CPUTmpl()
@@ -146,7 +146,7 @@ func (s *Statistics) CPUTmpl() template.HTML {
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/models"
+//	import "github.com/purpose168/GoAdmin-example/models"
 //
 //	stats := models.FirstStatics()
 //	likesHtml := stats.LikesTmpl()
@@ -181,7 +181,7 @@ func (s *Statistics) LikesTmpl() template.HTML {
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/models"
+//	import "github.com/purpose168/GoAdmin-example/models"
 //
 //	stats := models.FirstStatics()
 //	salesHtml := stats.SalesTmpl()
@@ -217,7 +217,7 @@ func (s *Statistics) SalesTmpl() template.HTML {
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/models"
+//	import "github.com/purpose168/GoAdmin-example/models"
 //
 //	stats := models.FirstStatics()
 //	membersHtml := stats.NewMembersTmpl()

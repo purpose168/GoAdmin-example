@@ -1,6 +1,6 @@
 // GoAdmin 示例项目 - 主程序入口
 // 本项目演示如何使用 GoAdmin 框架构建管理后台系统
-// 作者: GoAdminGroup
+
 // 创建日期: 2024
 // 功能: 提供基于 Gin 框架的管理后台，包含仪表板、表单和表格页面
 
@@ -15,14 +15,14 @@ import (
 	"os/signal" // 信号处理包，用于捕获系统信号
 	"time"      // 时间包，用于处理时间相关操作
 
-	_ "github.com/GoAdminGroup/themes/sword"                    // Sword UI 主题
+	_ "github.com/purpose168/GoAdmin-themes/sword"              // Sword UI 主题
 	_ "github.com/purpose168/GoAdmin/adapter/gin"               // Gin Web 框架适配器
 	_ "github.com/purpose168/GoAdmin/modules/db/drivers/sqlite" // SQLite 数据库驱动
 
-	"github.com/GoAdminGroup/example/models"         // 模型包，定义数据库表结构
-	"github.com/GoAdminGroup/example/pages"          // 页面包，定义管理后台页面
-	"github.com/GoAdminGroup/example/tables"         // 表格包，定义数据表格组件
 	"github.com/gin-gonic/gin"                       // Gin Web 框架，用于处理 HTTP 请求
+	"github.com/purpose168/GoAdmin-example/models"   // 模型包，定义数据库表结构
+	"github.com/purpose168/GoAdmin-example/pages"    // 页面包，定义管理后台页面
+	"github.com/purpose168/GoAdmin-example/tables"   // 表格包，定义数据表格组件
 	"github.com/purpose168/GoAdmin/engine"           // 引擎包，负责初始化和运行 GoAdmin
 	"github.com/purpose168/GoAdmin/template"         // 模板包，定义页面模板和组件
 	"github.com/purpose168/GoAdmin/template/chartjs" // Chart.js 图表组件

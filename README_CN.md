@@ -19,7 +19,7 @@
 #### 第一步
 
 ```shell
-git clone https://github.com/GoAdminGroup/example.git
+git clone https://github.com/purpose168/GoAdmin-example.git
 ```
 
 #### 第二步
@@ -36,7 +36,7 @@ GOPROXY=https://goproxy.cn GO111MODULE=on go run .
 #### 第一步
 
 ```shell
-git clone https://github.com/GoAdminGroup/example.git
+git clone https://github.com/purpose168/GoAdmin-example.git
 ```
 
 #### 第二步

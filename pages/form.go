@@ -1,7 +1,7 @@
 // pages 包 - 页面处理器
 // 本文件定义表单页面的生成逻辑
 // 使用 GoAdmin 框架的表单组件系统
-// 作者: GoAdminGroup
+
 // 创建日期: 2024
 // 功能: 提供各种表单字段的示例页面，展示GoAdmin表单功能
 
@@ -55,7 +55,7 @@ import (
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/pages"
+//	import "github.com/purpose168/GoAdmin-example/pages"
 //
 //	// 在路由中注册页面
 //	eng.HTML("GET", "/admin/form", pages.GetFormContent)

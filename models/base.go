@@ -1,7 +1,7 @@
 // models 包 - 数据模型层
 // 本包负责数据库连接管理和ORM初始化
 // 使用 GORM 作为ORM框架，支持多种数据库
-// 作者: GoAdminGroup
+
 // 创建日期: 2024
 // 功能: 提供统一的数据库访问接口和ORM实例
 
@@ -38,7 +38,7 @@ var (
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/models"
+//	import "github.com/purpose168/GoAdmin-example/models"
 //
 //	// 在main函数中调用
 //	models.Init(eng.SqliteConnection())

@@ -1,6 +1,6 @@
 // GoAdmin 示例项目 - 测试文件
 // 本文件包含 GoAdmin 框架的测试用例
-// 作者: GoAdminGroup
+
 // 创建日期: 2024
 // 功能: 提供黑盒测试和用户验收测试
 
@@ -10,7 +10,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/GoAdminGroup/example/tables"
+	"github.com/purpose168/GoAdmin-example/tables"
 	"github.com/gavv/httpexpect"
 	"github.com/purpose168/GoAdmin/modules/config"
 	"github.com/purpose168/GoAdmin/tests"

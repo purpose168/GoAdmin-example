@@ -1,7 +1,7 @@
 // pages 包 - 页面处理器
 // 本文件定义仪表板页面的生成逻辑
 // 使用 GoAdmin 框架的模板组件系统
-// 作者: GoAdminGroup
+
 // 创建日期: 2024
 // 功能: 提供管理后台仪表板页面，展示各种统计信息和图表
 
@@ -10,13 +10,13 @@ package pages
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/example/models"
-	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
-	"github.com/GoAdminGroup/themes/adminlte/components/description"
-	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
-	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
-	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
-	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
+	"github.com/purpose168/GoAdmin-example/models"
+	"github.com/purpose168/GoAdmin-themes/adminlte/components/chart_legend"
+	"github.com/purpose168/GoAdmin-themes/adminlte/components/description"
+	"github.com/purpose168/GoAdmin-themes/adminlte/components/infobox"
+	"github.com/purpose168/GoAdmin-themes/adminlte/components/productlist"
+	"github.com/purpose168/GoAdmin-themes/adminlte/components/progress_group"
+	"github.com/purpose168/GoAdmin-themes/adminlte/components/smallbox"
 	"github.com/purpose168/GoAdmin/context"
 	tmpl "github.com/purpose168/GoAdmin/template"
 	"github.com/purpose168/GoAdmin/template/chartjs"
@@ -53,7 +53,7 @@ import (
 //
 // 使用示例:
 //
-//	import "github.com/GoAdminGroup/example/pages"
+//	import "github.com/purpose168/GoAdmin-example/pages"
 //
 //	// 在路由中注册页面
 //	eng.HTML("GET", "/admin", pages.DashboardPage)
