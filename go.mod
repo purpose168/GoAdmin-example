@@ -47,9 +47,6 @@ require (
 	// Excelize Excel 文件处理库：用于读写 Excel 文件
 	// 支持 .xlsx 格式，可以创建、修改和导出 Excel 电子表格
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1 // indirect
-	// GoAdmin HTML 模板库：提供 HTML 模板渲染功能
-	// 用于生成动态 HTML 内容，支持模板继承和组件复用
-	github.com/purpose168/GoAdmin-html v0.0.1 // indirect
 	// 快速随机数生成器：提供高性能的伪随机数生成
 	// 比标准库的 math/rand 更快，适合性能敏感的场景
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
@@ -288,3 +285,5 @@ require (
 	// 提供了简单的 API 来操作数据库，支持多种数据库引擎
 	xorm.io/xorm v1.3.11 // indirect
 )
+
+require github.com/GoAdminGroup/html v0.0.1 // indirect
